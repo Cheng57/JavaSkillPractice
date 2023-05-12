@@ -21,6 +21,7 @@ public class PhraseOMatic{
 		// create a phrase
 		String phrase = wordListOne[random1] + " " + wordListTwo[random2] + " " + wordListThree[random3];
 
+		// print out the phrase
 		System.out.println("What we need is a " + phrase);
 	}
 }
