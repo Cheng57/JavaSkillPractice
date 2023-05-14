@@ -21,7 +21,7 @@ public class PoolPuzzleOne{
 				System.out.print("noys");
 			}
 
-			if (x >1){
+			if (x > 1){
 				System.out.print(" oyster");
 			}
 
