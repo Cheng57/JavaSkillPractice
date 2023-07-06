@@ -4,6 +4,10 @@ class BooksTestDrive{
 
 		int x = 0;
 
+		myBooks[0] = new Books();
+		myBooks[1] = new Books();
+		myBooks[2] = new Books();
+
 		myBooks[0].title = "The Grapes of Java";
 		myBooks[1].title = "The Java Gatsby";
 		myBooks[2].title = "The Java Cookbook";
@@ -15,7 +19,7 @@ class BooksTestDrive{
 		while(x < myBooks.length){
 			System.out.print(myBooks[x].title);
 			System.out.print(" by ");
-			System.out.print(myBooks[x].author);
+			System.out.println(myBooks[x].author);
 
 			x = x + 1;
 		}
