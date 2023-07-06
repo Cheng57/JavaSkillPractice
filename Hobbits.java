@@ -6,8 +6,8 @@ class Hobbits{
 
 		int z = 0;
 
-		while(z < 4){
-			z = z + 1;
+		while(z < h.length){
+
 
 			h[z] = new Hobbits();
 			h[z].name = "bilbo";
@@ -22,6 +22,8 @@ class Hobbits{
 
 			System.out.print(h[z].name + " is a ");
 			System.out.println("good Hobbit name");
+
+			z = z + 1;
 
 		}
 	}
