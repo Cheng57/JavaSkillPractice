@@ -1,5 +1,5 @@
 # User starts the game
-- Game creates three Dot Coms
+- Game creates three Dot Coms (each Dot Com takes up three cells)
 - Game places the three Dot Coms onto a virtual grid
 
 # Game play begins
