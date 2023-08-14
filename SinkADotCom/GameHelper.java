@@ -48,7 +48,7 @@ public class GameHelper{
 					if(location >= gridSize){
 						success = false;
 					}
-					if(x > 0 && (location % gridLength == 0){
+					if(x > 0 && (location % gridLength == 0)){
 						success = false;
 					}
 				}else{
@@ -68,7 +68,7 @@ public class GameHelper{
 			column = coords[x] % gridLength;
 			temp = String.valueOf(alphabet.charAt(column));
 
-			alphaCells.add(temp.concat(Integer.toString(row));
+			alphaCells.add(temp.concat(Integer.toString(row)));
 			x++;
 			//System.out.print("  coord "+x+" = " + alphaCells.get(x - 1));
 		}
