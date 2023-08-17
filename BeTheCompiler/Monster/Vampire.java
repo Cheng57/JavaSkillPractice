@@ -1,7 +1,7 @@
 class Vampire extends Monster{
-	boolean frighten(int f){
+	int frighten(int f){
 		System.out.println("a bite?");
 
-		return true;
+		return 1;
 	}
 }
